@@ -3,14 +3,20 @@ This is a test file for practice committing for section 2 of COMP490.
 Steps:
 (1) Git clone the project.
     $ git clone
+    
 (2) Each group has one student add a new text file using your project name. 
     $ vi <project_name>.txt
     $ git add <project_name>.txt
+    
 (3) All group members edit the file by adding your name to the end of this file.
+
 (4) Git pull to get the most recent version to avoid conflicts.
     $ git pull
+    
 (5) Commit the changes. 
     $ git commit -m "<add your comment for your commitment here>"
+    
 (6) Push the update to the master.
     $ git push -u origin master
+    
 (7) Check if your change has been updated with your name in the file.
